@@ -1,0 +1,46 @@
+.Header{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+   
+
+    .left{
+        // background-color: yellow;
+        padding-left: 10px;
+       
+
+        p{
+            font-size: 16px;
+            color: #fff;
+            text-align: center;
+        }
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-right: 10px;
+
+        p{
+            font-size: 15px;
+            color: #fff;
+        }
+
+        .searchIcon{
+            background: rgb(241, 237, 237);
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+
+            input{
+                border: hidden;
+                border-radius: 10px;
+                background-color: rgb(249, 236, 236);
+                margin-left: 20px;
+            }
+        }
+    }
+}
