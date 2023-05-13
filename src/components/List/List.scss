@@ -1,0 +1,19 @@
+.formsControl{
+   display: flex;
+    .formControl{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        label{
+            font-size: 20px;
+            font-weight: 400;
+            
+        }
+        select{
+            border: none;
+            border-bottom: 1px solid black;
+            margin-right: 20px;
+           
+        }
+    }
+}
